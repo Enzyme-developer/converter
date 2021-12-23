@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+    margin: 0;
+    background-color: black;
+    /* background-color: springgreen; */
+    color: white;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 500px;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.image-div{
+    text-align: center;
+}
+
+#currency{
+    max-width: 100%;
+    width: 300px;
+}
+
+#currencylist-one , #currencylist-two{
+    padding: .5rem;
+    font-size: 1rem;
+    width: 200px;
+}
+
+#amount-one , #amount-two{
+    padding: .5rem;
+    font-size: 1rem;
+    width: 200px;
+}
+
+#currencylist-one:focus , #currencylist-two:focus{
+    outline: none;
+}
+
+#amount-one:focus , #amount-two:focus{
+    outline: none;
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2.5rem 0;
+}
+
+.currencies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2.5rem 0;
+}
+
+#swap{
+    display: flex;
+    padding: .7rem;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    margin: 2rem auto;
+    color: white;
+    font-size: 1rem;
+}
+
+#swap:focus{
+    outline: none;
+}
+
+i{
+    padding: 0 .3rem;
+}
+
+#rate{
+    text-align: center;
+    padding: .5rem;
+}
+
+small{
+    font-size: 1.0rem;
+    text-align: center;
+}
